@@ -3075,7 +3075,7 @@ include('getData.php')
                                 </h4>
                                 <form>
                                 <?php 
-                                    gEstado('nuevo león');    
+                                    gEstado('Nuevo Leon');    
                                 ?>
                                 </form>
                             </div>

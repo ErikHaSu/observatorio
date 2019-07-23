@@ -19,7 +19,7 @@ function color(num){
     "Mexico","Sonora","Tabasco","Tamaulipas","Tlaxcala","Veracruz",
     "Yucatan","Zacatecas","Puebla","Querétaro","Quintana Roo","San Luis Potosí","Colima",
     "Chihuahua","Chiapas","CDMX","Durango","Michoacan","Sinaloa"];
-      alert(num);
+   
       for (var i =0;i<estado.length;i++){
         
         if (num[i] < 0){
@@ -28,10 +28,10 @@ function color(num){
         }else if((num[i]  >= 0)&&(num[i] <=2)){
           document.getElementById(estado[i]).style.fill = "#f05d08";
           console.log("medio");
-        }else if((num[i] >= 3)&&(num[i] <=4)){
+        }else if((num[i] >= 2.1)&&(num[i] <=4)){
           document.getElementById(estado[i]).style.fill = "#f73b02";
           console.log("alto");
-        }else if(num[i] >=5 ){
+        }else if(num[i] >=4.1 ){
           document.getElementById(estado[i]).style.fill = "#e40202";
           console.log("muy alto");
         }
